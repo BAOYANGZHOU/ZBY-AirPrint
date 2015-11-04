@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		591463D51BE8DE44007C47DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 591463D41BE8DE44007C47DB /* main.m */; };
+		591463D81BE8DE44007C47DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 591463D71BE8DE44007C47DB /* AppDelegate.m */; };
+		591463DB1BE8DE44007C47DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 591463DA1BE8DE44007C47DB /* ViewController.m */; };
+		591463DE1BE8DE44007C47DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591463DC1BE8DE44007C47DB /* Main.storyboard */; };
+		591463E01BE8DE44007C47DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591463DF1BE8DE44007C47DB /* Assets.xcassets */; };
+		591463E31BE8DE44007C47DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591463E11BE8DE44007C47DB /* LaunchScreen.storyboard */; };
+		591463EE1BE8DE44007C47DB /* AirPrintDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 591463ED1BE8DE44007C47DB /* AirPrintDemoTests.m */; };
+		591463F91BE8DE44007C47DB /* AirPrintDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 591463F81BE8DE44007C47DB /* AirPrintDemoUITests.m */; };
+		591464081BE8DFBE007C47DB /* PrintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 591464071BE8DFBE007C47DB /* PrintView.m */; };
+		5914640B1BE8E08D007C47DB /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914640A1BE8E08D007C47DB /* Model.m */; };
+		5914640E1BE8EA00007C47DB /* PrintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914640D1BE8EA00007C47DB /* PrintManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		591463EA1BE8DE44007C47DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 591463C81BE8DE44007C47DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591463CF1BE8DE44007C47DB;
+			remoteInfo = AirPrintDemo;
+		};
+		591463F51BE8DE44007C47DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 591463C81BE8DE44007C47DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591463CF1BE8DE44007C47DB;
+			remoteInfo = AirPrintDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		591463D01BE8DE44007C47DB /* AirPrintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPrintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		591463D41BE8DE44007C47DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		591463D61BE8DE44007C47DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		591463D71BE8DE44007C47DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		591463D91BE8DE44007C47DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		591463DA1BE8DE44007C47DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		591463DD1BE8DE44007C47DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		591463DF1BE8DE44007C47DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		591463E21BE8DE44007C47DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		591463E41BE8DE44007C47DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591463E91BE8DE44007C47DB /* AirPrintDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPrintDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		591463ED1BE8DE44007C47DB /* AirPrintDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPrintDemoTests.m; sourceTree = "<group>"; };
+		591463EF1BE8DE44007C47DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591463F41BE8DE44007C47DB /* AirPrintDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPrintDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		591463F81BE8DE44007C47DB /* AirPrintDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPrintDemoUITests.m; sourceTree = "<group>"; };
+		591463FA1BE8DE44007C47DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591464061BE8DFBE007C47DB /* PrintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintView.h; sourceTree = "<group>"; };
+		591464071BE8DFBE007C47DB /* PrintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintView.m; sourceTree = "<group>"; };
+		591464091BE8E08D007C47DB /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		5914640A1BE8E08D007C47DB /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		5914640C1BE8EA00007C47DB /* PrintManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintManager.h; sourceTree = "<group>"; };
+		5914640D1BE8EA00007C47DB /* PrintManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		591463CD1BE8DE44007C47DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591463E61BE8DE44007C47DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591463F11BE8DE44007C47DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		591463C71BE8DE44007C47DB = {
+			isa = PBXGroup;
+			children = (
+				591463D21BE8DE44007C47DB /* AirPrintDemo */,
+				591463EC1BE8DE44007C47DB /* AirPrintDemoTests */,
+				591463F71BE8DE44007C47DB /* AirPrintDemoUITests */,
+				591463D11BE8DE44007C47DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		591463D11BE8DE44007C47DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				591463D01BE8DE44007C47DB /* AirPrintDemo.app */,
+				591463E91BE8DE44007C47DB /* AirPrintDemoTests.xctest */,
+				591463F41BE8DE44007C47DB /* AirPrintDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		591463D21BE8DE44007C47DB /* AirPrintDemo */ = {
+			isa = PBXGroup;
+			children = (
+				591463D61BE8DE44007C47DB /* AppDelegate.h */,
+				591463D71BE8DE44007C47DB /* AppDelegate.m */,
+				591463D91BE8DE44007C47DB /* ViewController.h */,
+				591463DA1BE8DE44007C47DB /* ViewController.m */,
+				5914640C1BE8EA00007C47DB /* PrintManager.h */,
+				5914640D1BE8EA00007C47DB /* PrintManager.m */,
+				591464061BE8DFBE007C47DB /* PrintView.h */,
+				591464071BE8DFBE007C47DB /* PrintView.m */,
+				591464091BE8E08D007C47DB /* Model.h */,
+				5914640A1BE8E08D007C47DB /* Model.m */,
+				591463DC1BE8DE44007C47DB /* Main.storyboard */,
+				591463DF1BE8DE44007C47DB /* Assets.xcassets */,
+				591463E11BE8DE44007C47DB /* LaunchScreen.storyboard */,
+				591463E41BE8DE44007C47DB /* Info.plist */,
+				591463D31BE8DE44007C47DB /* Supporting Files */,
+			);
+			path = AirPrintDemo;
+			sourceTree = "<group>";
+		};
+		591463D31BE8DE44007C47DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				591463D41BE8DE44007C47DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		591463EC1BE8DE44007C47DB /* AirPrintDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				591463ED1BE8DE44007C47DB /* AirPrintDemoTests.m */,
+				591463EF1BE8DE44007C47DB /* Info.plist */,
+			);
+			path = AirPrintDemoTests;
+			sourceTree = "<group>";
+		};
+		591463F71BE8DE44007C47DB /* AirPrintDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				591463F81BE8DE44007C47DB /* AirPrintDemoUITests.m */,
+				591463FA1BE8DE44007C47DB /* Info.plist */,
+			);
+			path = AirPrintDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		591463CF1BE8DE44007C47DB /* AirPrintDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591463FD1BE8DE44007C47DB /* Build configuration list for PBXNativeTarget "AirPrintDemo" */;
+			buildPhases = (
+				591463CC1BE8DE44007C47DB /* Sources */,
+				591463CD1BE8DE44007C47DB /* Frameworks */,
+				591463CE1BE8DE44007C47DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPrintDemo;
+			productName = AirPrintDemo;
+			productReference = 591463D01BE8DE44007C47DB /* AirPrintDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		591463E81BE8DE44007C47DB /* AirPrintDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591464001BE8DE44007C47DB /* Build configuration list for PBXNativeTarget "AirPrintDemoTests" */;
+			buildPhases = (
+				591463E51BE8DE44007C47DB /* Sources */,
+				591463E61BE8DE44007C47DB /* Frameworks */,
+				591463E71BE8DE44007C47DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591463EB1BE8DE44007C47DB /* PBXTargetDependency */,
+			);
+			name = AirPrintDemoTests;
+			productName = AirPrintDemoTests;
+			productReference = 591463E91BE8DE44007C47DB /* AirPrintDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		591463F31BE8DE44007C47DB /* AirPrintDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591464031BE8DE44007C47DB /* Build configuration list for PBXNativeTarget "AirPrintDemoUITests" */;
+			buildPhases = (
+				591463F01BE8DE44007C47DB /* Sources */,
+				591463F11BE8DE44007C47DB /* Frameworks */,
+				591463F21BE8DE44007C47DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591463F61BE8DE44007C47DB /* PBXTargetDependency */,
+			);
+			name = AirPrintDemoUITests;
+			productName = AirPrintDemoUITests;
+			productReference = 591463F41BE8DE44007C47DB /* AirPrintDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		591463C81BE8DE44007C47DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhoubaoyang;
+				TargetAttributes = {
+					591463CF1BE8DE44007C47DB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HHV937B9N8;
+					};
+					591463E81BE8DE44007C47DB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HHV937B9N8;
+						TestTargetID = 591463CF1BE8DE44007C47DB;
+					};
+					591463F31BE8DE44007C47DB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HHV937B9N8;
+						TestTargetID = 591463CF1BE8DE44007C47DB;
+					};
+				};
+			};
+			buildConfigurationList = 591463CB1BE8DE44007C47DB /* Build configuration list for PBXProject "AirPrintDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 591463C71BE8DE44007C47DB;
+			productRefGroup = 591463D11BE8DE44007C47DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				591463CF1BE8DE44007C47DB /* AirPrintDemo */,
+				591463E81BE8DE44007C47DB /* AirPrintDemoTests */,
+				591463F31BE8DE44007C47DB /* AirPrintDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		591463CE1BE8DE44007C47DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591463E31BE8DE44007C47DB /* LaunchScreen.storyboard in Resources */,
+				591463E01BE8DE44007C47DB /* Assets.xcassets in Resources */,
+				591463DE1BE8DE44007C47DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591463E71BE8DE44007C47DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591463F21BE8DE44007C47DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591463CC1BE8DE44007C47DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591463DB1BE8DE44007C47DB /* ViewController.m in Sources */,
+				5914640E1BE8EA00007C47DB /* PrintManager.m in Sources */,
+				591463D81BE8DE44007C47DB /* AppDelegate.m in Sources */,
+				591464081BE8DFBE007C47DB /* PrintView.m in Sources */,
+				591463D51BE8DE44007C47DB /* main.m in Sources */,
+				5914640B1BE8E08D007C47DB /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591463E51BE8DE44007C47DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591463EE1BE8DE44007C47DB /* AirPrintDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591463F01BE8DE44007C47DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591463F91BE8DE44007C47DB /* AirPrintDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		591463EB1BE8DE44007C47DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 591463CF1BE8DE44007C47DB /* AirPrintDemo */;
+			targetProxy = 591463EA1BE8DE44007C47DB /* PBXContainerItemProxy */;
+		};
+		591463F61BE8DE44007C47DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 591463CF1BE8DE44007C47DB /* AirPrintDemo */;
+			targetProxy = 591463F51BE8DE44007C47DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		591463DC1BE8DE44007C47DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				591463DD1BE8DE44007C47DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		591463E11BE8DE44007C47DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				591463E21BE8DE44007C47DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		591463FB1BE8DE44007C47DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		591463FC1BE8DE44007C47DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		591463FE1BE8DE44007C47DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirPrintDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baozun.AirPrintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		591463FF1BE8DE44007C47DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirPrintDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baozun.AirPrintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		591464011BE8DE44007C47DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AirPrintDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baozun.AirPrintDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPrintDemo.app/AirPrintDemo";
+			};
+			name = Debug;
+		};
+		591464021BE8DE44007C47DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AirPrintDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baozun.AirPrintDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPrintDemo.app/AirPrintDemo";
+			};
+			name = Release;
+		};
+		591464041BE8DE44007C47DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AirPrintDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baozun.AirPrintDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirPrintDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		591464051BE8DE44007C47DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AirPrintDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baozun.AirPrintDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirPrintDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		591463CB1BE8DE44007C47DB /* Build configuration list for PBXProject "AirPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591463FB1BE8DE44007C47DB /* Debug */,
+				591463FC1BE8DE44007C47DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591463FD1BE8DE44007C47DB /* Build configuration list for PBXNativeTarget "AirPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591463FE1BE8DE44007C47DB /* Debug */,
+				591463FF1BE8DE44007C47DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591464001BE8DE44007C47DB /* Build configuration list for PBXNativeTarget "AirPrintDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591464011BE8DE44007C47DB /* Debug */,
+				591464021BE8DE44007C47DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591464031BE8DE44007C47DB /* Build configuration list for PBXNativeTarget "AirPrintDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591464041BE8DE44007C47DB /* Debug */,
+				591464051BE8DE44007C47DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 591463C81BE8DE44007C47DB /* Project object */;
+}
